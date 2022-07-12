@@ -36,10 +36,18 @@ This project is aimed at helping you better understand how the type system works
 Click in the item to see my answer to the question.
 
 ~~<a href="./answers/00013-warm-hello-world/answer.ts" target="_blank">13・Hello World</a>~~
+
 ~~<a href="./answers/00004-easy-pick/answer.ts" target="_blank">4・Pick</a>~~
+
 ~~<a href="./answers/00007-easy-readonly/answer.ts" target="_blank">7・Readonly</a>~~
+
 ~~<a href="./answers/00011-easy-tuple-to-object/answer.ts" target="_blank">11・Tuple to Object</a>~~
+
 ~~<a href="./answers/00014-easy-first/answer.ts" target="_blank">14・First of Array</a>~~
+
+~~<a href="./answers/00018-easy-tuple-length/answer.ts" target="_blank">18・Length of Tuple</a>~~
+
+~~<a href="./answers/00043-easy-exclude/answer.ts" target="_blank">43・Exclude</a>~~
 
 ## Challenges
 
