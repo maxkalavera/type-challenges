@@ -17,5 +17,3 @@ type cases = [
 ******************************************************************************/
 
 type Length<T extends readonly any[]> = T['length']
-
-type out = Length<typeof tesla>;

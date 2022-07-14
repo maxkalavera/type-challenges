@@ -9,6 +9,7 @@
   "scripts": {
     "readme": "esno ./scripts/readme.ts",
     "build": "esno ./scripts/build.ts",
+    "build-answers": "esno ./scripts/buildAnswersFolder.ts",
     "lint": "eslint .",
     "translate": "esno ./scripts/translate-cli.ts",
     "utils:release": "pnpm -C utils release"
