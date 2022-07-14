@@ -19,4 +19,4 @@ type error = TupleToObject<[[1, 2], {}]>
 
 type TupleToObject<T extends readonly (string | number)[]> = {
     [index in T[number]]: index
-}
+};
