@@ -9,5 +9,5 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type Pop<T extends any[]> = any
+type Pop<T extends any[]> = T extends [...infer T, infer U] ? T : never;
 

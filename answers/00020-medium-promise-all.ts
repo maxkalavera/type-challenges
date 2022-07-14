@@ -14,5 +14,14 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-declare function PromiseAll(values: any): any
+type ExtractPromiseResolve<T> = T extends Promise<infer I>
+  ? I
+  : T;
 
+type Map<T extends readonly any[], U extends readonly any[] = []> =  T extends readonly [infer First, ...infer Others]
+? Map<Others, [...U, ExtractPromiseResolve<First>]>
+: U;
+
+declare function PromiseAll<T extends any[]>(values: readonly [...T]): Promise<Map<T>>;
+
+type out = typeof promiseAllTest3;

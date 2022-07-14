@@ -54,5 +54,12 @@ type Expected = {
 * Answer
 ******************************************************************************/
 
-type DeepReadonly<T> = any
+type DeepReadonly<T extends {}> = {
+  readonly [key in keyof T]: T[key] extends { [key: string]: any }
+    ? T[key] extends (...args: any[]) => any 
+      ? T[key]
+      : DeepReadonly<T[key]> 
+    : T[key]
+};
 
+type out = DeepReadonly<X>

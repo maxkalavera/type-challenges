@@ -9,5 +9,4 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type Last<T extends any[]> = any
-
+type Last<T extends any[]> = T extends [...infer T, infer U] ? U : never;

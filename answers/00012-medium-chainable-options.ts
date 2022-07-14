@@ -35,8 +35,22 @@ type Expected2 = {
 * Answer
 ******************************************************************************/
 
-type Chainable = {
-  option(key: string, value: any): any
-  get(): any
+type Extend<T, U extends { [index: string | number | symbol]: any } > = {
+  [key in (keyof T | keyof U)]: key extends keyof T
+    ? T[key]
+    : key extends keyof U
+      ? U[key]
+      : never
 }
 
+type Chainable<result extends { [index: string | number | symbol]: any } = {}> = {
+  option<Key extends string | number | symbol, ValueType>(key: Key extends keyof result ? never : Key, value: ValueType): 
+    Chainable<Extend<result, { [key in Key]: ValueType }>>
+  get(): result
+};
+
+type Foo = <T extends string>(param: T) => T;
+
+const foo: Foo = (param) => param;
+
+var out = foo('A');

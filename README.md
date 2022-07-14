@@ -49,27 +49,27 @@ Click in the item to see my answer to the challenge.
 
 ~~<a href="./answers/00008-medium-readonly-2.ts" target="_blank">8・Readonly 2</a>~~
 
-<a href="./answers/00009-medium-deep-readonly.ts" target="_blank">9・Deep Readonly</a>
+~~<a href="./answers/00009-medium-deep-readonly.ts" target="_blank">9・Deep Readonly</a>~~
 
-<a href="./answers/00010-medium-tuple-to-union.ts" target="_blank">10・Tuple to Union</a>
+~~<a href="./answers/00010-medium-tuple-to-union.ts" target="_blank">10・Tuple to Union</a>~~
 
 ~~<a href="./answers/00011-easy-tuple-to-object.ts" target="_blank">11・Tuple to Object</a>~~
 
-<a href="./answers/00012-medium-chainable-options.ts" target="_blank">12・Chainable Options</a>
+~~<a href="./answers/00012-medium-chainable-options.ts" target="_blank">12・Chainable Options</a>~~
 
 ~~<a href="./answers/00013-warm-hello-world.ts" target="_blank">13・Hello World</a>~~
 
 ~~<a href="./answers/00014-easy-first.ts" target="_blank">14・First of Array</a>~~
 
-<a href="./answers/00015-medium-last.ts" target="_blank">15・Last of Array</a>
+~~<a href="./answers/00015-medium-last.ts" target="_blank">15・Last of Array</a>~~
 
-<a href="./answers/00016-medium-pop.ts" target="_blank">16・Pop</a>
+~~<a href="./answers/00016-medium-pop.ts" target="_blank">16・Pop</a>~~
 
 <a href="./answers/00017-hard-currying-1.ts" target="_blank">17・Currying 1</a>
 
 ~~<a href="./answers/00018-easy-tuple-length.ts" target="_blank">18・Length of Tuple</a>~~
 
-<a href="./answers/00020-medium-promise-all.ts" target="_blank">20・Promise.all</a>
+~~<a href="./answers/00020-medium-promise-all.ts" target="_blank">20・Promise.all</a>~~
 
 ~~<a href="./answers/00043-easy-exclude.ts" target="_blank">43・Exclude</a>~~
 
