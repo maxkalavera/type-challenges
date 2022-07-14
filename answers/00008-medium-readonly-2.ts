@@ -27,6 +27,22 @@ interface Expected {
 /******************************************************************************
 * Answer
 ******************************************************************************/
+type IsEqual<T, U> = [T] extends [U] 
+  ? [U] extends [T]
+    ? true
+    : false
+  : false;
 
-type MyReadonly2<T, K> = any
+type Exclude<A, B extends A> = A extends B ? never : A;
 
+type Omit<T, K extends keyof T> = {
+  [key in Exclude<keyof T, K>]: T[key]
+};
+
+type ReadOnly<T, K extends keyof T> = {
+  readonly [key in K]: T[key]
+};
+
+type MyReadonly2<T, K extends keyof T = never> = IsEqual<K, never> extends true 
+  ? ReadOnly<T, keyof T>
+  : ReadOnly<T, K> & Omit<T, K>;

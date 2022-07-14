@@ -23,5 +23,5 @@ const fn1 = (v: boolean, w: any) => v ? 1 : 2
 * Answer
 ******************************************************************************/
 
-type MyReturnType<T> = any
-
+type MyReturnType<Function extends (...args: any) => any> = 
+  Function extends (...args: any) => infer I ? I : never;

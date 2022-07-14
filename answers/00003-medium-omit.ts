@@ -26,6 +26,10 @@ interface Expected2 {
 /******************************************************************************
 * Answer
 ******************************************************************************/
+type Exclude<A, B extends A> = A extends B ? never : A;
+type MyOmit<T, K extends keyof T> = {
+  [key in Exclude<keyof T, K>]: T[key]
+};
 
-type MyOmit<T, K> = any
 
+type out2 = 'title' | 'description' | 'completed'

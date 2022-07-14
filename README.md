@@ -35,9 +35,9 @@ This project is aimed at helping you better understand how the type system works
 
 Click in the item to see my answer to the challenge.
 
-<a href="./answers/00002-medium-return-type.ts" target="_blank">2・Get Return Type</a>
+~~<a href="./answers/00002-medium-return-type.ts" target="_blank">2・Get Return Type</a>~~
 
-<a href="./answers/00003-medium-omit.ts" target="_blank">3・Omit</a>
+~~<a href="./answers/00003-medium-omit.ts" target="_blank">3・Omit</a>~~
 
 ~~<a href="./answers/00004-easy-pick.ts" target="_blank">4・Pick</a>~~
 
@@ -47,7 +47,7 @@ Click in the item to see my answer to the challenge.
 
 ~~<a href="./answers/00007-easy-readonly.ts" target="_blank">7・Readonly</a>~~
 
-<a href="./answers/00008-medium-readonly-2.ts" target="_blank">8・Readonly 2</a>
+~~<a href="./answers/00008-medium-readonly-2.ts" target="_blank">8・Readonly 2</a>~~
 
 <a href="./answers/00009-medium-deep-readonly.ts" target="_blank">9・Deep Readonly</a>
 
