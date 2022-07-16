@@ -79,13 +79,13 @@ Click in the item to see my answer to the challenge.
 
 <a href="./answers/00059-hard-get-optional.ts" target="_blank">59・Get Optional</a>
 
-<a href="./answers/00062-medium-type-lookup.ts" target="_blank">62・Type Lookup</a>
+~~<a href="./answers/00062-medium-type-lookup.ts" target="_blank">62・Type Lookup</a>~~
 
 <a href="./answers/00089-hard-required-keys.ts" target="_blank">89・Required Keys</a>
 
 <a href="./answers/00090-hard-optional-keys.ts" target="_blank">90・Optional Keys</a>
 
-<a href="./answers/00106-medium-trimleft.ts" target="_blank">106・Trim Left</a>
+~~<a href="./answers/00106-medium-trimleft.ts" target="_blank">106・Trim Left</a>~~
 
 <a href="./answers/00108-medium-trim.ts" target="_blank">108・Trim</a>
 

@@ -14,5 +14,9 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type TrimLeft<S extends string> = any
+type TrimLeft<S extends string> = S extends `${' ' | '\n' | '\t'}${infer R}` 
+  ? TrimLeft<R>
+  : S;
+
+type out = TrimLeft<'   \n\t foo bar '>;
 

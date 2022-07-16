@@ -22,5 +22,10 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type LookUp<U, T> = any
+type LookUp<
+  U extends Animal,
+  T
+> = Equal<T, 'cat'> extends true
+  ? Cat
+  : Dog;
 
