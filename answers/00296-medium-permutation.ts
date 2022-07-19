@@ -11,6 +11,10 @@ type cases = [
 /******************************************************************************
 * Answer
 ******************************************************************************/
+type Exclude<T, U> = T extends U ? never : T;
 
-type Permutation<T> = any
-
+type Permutation<T, Other=T> = [T] extends [never]
+  ? []
+  : T extends Other
+    ? [T, ...Permutation<Exclude<Other, T>>]
+    : never;

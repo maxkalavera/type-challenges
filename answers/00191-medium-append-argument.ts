@@ -15,5 +15,6 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type AppendArgument<Fn, A> = any
-
+type AppendArgument<Fn, A> = Fn extends (...args: infer Args) => infer Output
+  ? (...args: [...Args, A]) => Output
+  : never;

@@ -16,5 +16,13 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type ReplaceAll<S extends string, From extends string, To extends string> = any
+type ReplaceAll<
+  S extends string, 
+  From extends string, 
+  To extends string
+> = From extends ''
+  ? S
+  : S extends `${infer Front}${From}${infer Tail}`
+    ? `${Front}${To}${ReplaceAll<Tail, From, To>}`
+    : S;
 

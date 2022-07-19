@@ -13,5 +13,13 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type Replace<S extends string, From extends string, To extends string> = any
+type Replace<
+  S extends string, 
+  From extends string, 
+  To extends string
+> = From extends ''
+  ? S
+  : S extends `${infer Front}${From}${infer Tail}`
+    ? `${Front}${To}${Tail}`
+    : S;
 

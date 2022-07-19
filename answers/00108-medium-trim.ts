@@ -14,6 +14,7 @@ type cases = [
 /******************************************************************************
 * Answer
 ******************************************************************************/
-
-type Trim<S extends string> = any
-
+type Empty = ' ' | '\n' | '\t';
+type TrimLeft<S extends string> = S extends `${Empty}${infer Remaining}` ? TrimLeft<Remaining> : S;
+type TrimRight<S extends string> = S extends `${infer Remaining}${Empty}` ? TrimRight<Remaining> : S;
+type Trim<S extends string> = TrimRight<TrimLeft<S>>;

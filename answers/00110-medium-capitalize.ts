@@ -36,6 +36,65 @@ type cases = [
 /******************************************************************************
 * Answer
 ******************************************************************************/
+type Alphabet = 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' 
+  | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' 
+  | 'y' | 'z';
 
-type MyCapitalize<S extends string> = any
+type Mapper<S extends string> = 
+  S extends 'a'
+  ? 'A'
+  : S extends 'b'
+  ? 'B'
+  : S extends 'c'
+  ? 'C'
+  : S extends 'd'
+  ? 'D'
+  : S extends 'e'
+  ? 'E'
+  : S extends 'f'
+  ? 'F'
+  : S extends 'g'
+  ? 'G'
+  : S extends 'h'
+  ? 'H'
+  : S extends 'i'
+  ? 'I'
+  : S extends 'j'
+  ? 'J'
+  : S extends 'k'
+  ? 'K'
+  : S extends 'l'
+  ? 'L'
+  : S extends 'm'
+  ? 'M'
+  : S extends 'n'
+  ? 'N'
+  : S extends 'o'
+  ? 'O'
+  : S extends 'p'
+  ? 'P'
+  : S extends 'q'
+  ? 'Q'
+  : S extends 'r'
+  ? 'R'
+  : S extends 's'
+  ? 'S'
+  : S extends 't'
+  ? 'T'
+  : S extends 'u'
+  ? 'U'
+  : S extends 'v'
+  ? 'V'
+  : S extends 'w'
+  ? 'W'
+  : S extends 'x'
+  ? 'X'
+  : S extends 'y'
+  ? 'Y'
+  : S extends 'z'
+  ? 'Z'
+  : S;
 
+type MyCapitalize<S extends string> = S extends `${infer First}${infer Remaining}`
+  ? `${Mapper<First>}${Remaining}`
+  : S;

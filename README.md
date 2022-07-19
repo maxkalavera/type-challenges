@@ -87,17 +87,17 @@ Click in the item to see my answer to the challenge.
 
 ~~<a href="./answers/00106-medium-trimleft.ts" target="_blank">106・Trim Left</a>~~
 
-<a href="./answers/00108-medium-trim.ts" target="_blank">108・Trim</a>
+~~<a href="./answers/00108-medium-trim.ts" target="_blank">108・Trim</a>~~
 
-<a href="./answers/00110-medium-capitalize.ts" target="_blank">110・Capitalize</a>
+~~<a href="./answers/00110-medium-capitalize.ts" target="_blank">110・Capitalize</a>~~
 
 <a href="./answers/00112-hard-capitalizewords.ts" target="_blank">112・Capitalize Words</a>
 
 <a href="./answers/00114-hard-camelcase.ts" target="_blank">114・CamelCase</a>
 
-<a href="./answers/00116-medium-replace.ts" target="_blank">116・Replace</a>
+~~<a href="./answers/00116-medium-replace.ts" target="_blank">116・Replace</a>~~
 
-<a href="./answers/00119-medium-replaceall.ts" target="_blank">119・ReplaceAll</a>
+~~<a href="./answers/00119-medium-replaceall.ts" target="_blank">119・ReplaceAll</a>~~
 
 <a href="./answers/00147-hard-c-printf-parser.ts" target="_blank">147・C-printf Parser</a>
 
@@ -105,7 +105,7 @@ Click in the item to see my answer to the challenge.
 
 <a href="./answers/00189-easy-awaited.ts" target="_blank">189・Awaited</a>
 
-<a href="./answers/00191-medium-append-argument.ts" target="_blank">191・Append Argument</a>
+~~<a href="./answers/00191-medium-append-argument.ts" target="_blank">191・Append Argument</a>~~
 
 <a href="./answers/00213-hard-vue-basic-props.ts" target="_blank">213・Vue Basic Props</a>
 
@@ -119,7 +119,7 @@ Click in the item to see my answer to the challenge.
 
 <a href="./answers/00274-extreme-integers-comparator.ts" target="_blank">274・Integers Comparator</a>
 
-<a href="./answers/00296-medium-permutation.ts" target="_blank">296・Permutation</a>
+~~<a href="./answers/00296-medium-permutation.ts" target="_blank">296・Permutation</a>~~
 
 <a href="./answers/00298-medium-length-of-string.ts" target="_blank">298・Length of String</a>
 
