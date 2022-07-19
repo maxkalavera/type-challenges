@@ -10,6 +10,11 @@ type cases = [
 /******************************************************************************
 * Answer
 ******************************************************************************/
+type ToArray<S extends string> =
+  S extends ''
+  ? []
+  : S extends `${infer First}${infer Rest}`
+    ? [First, ...ToArray<Rest>]
+    : never;
 
-type LengthOfString<S extends string> = any
-
+type LengthOfString<S extends string> = ToArray<S>['length'];

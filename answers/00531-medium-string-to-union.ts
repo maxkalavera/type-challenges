@@ -11,5 +11,6 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type StringToUnion<T extends string> = any
-
+type StringToUnion<S extends string> = S extends `${infer First}${infer Rest}`
+  ? First | StringToUnion<Rest>
+  : never;

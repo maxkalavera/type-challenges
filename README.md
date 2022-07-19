@@ -121,13 +121,13 @@ Click in the item to see my answer to the challenge.
 
 ~~<a href="./answers/00296-medium-permutation.ts" target="_blank">296・Permutation</a>~~
 
-<a href="./answers/00298-medium-length-of-string.ts" target="_blank">298・Length of String</a>
+~~<a href="./answers/00298-medium-length-of-string.ts" target="_blank">298・Length of String</a>~~
 
 <a href="./answers/00300-hard-string-to-number.ts" target="_blank">300・String to Number</a>
 
 <a href="./answers/00399-hard-tuple-filter.ts" target="_blank">399・Tuple Filter</a>
 
-<a href="./answers/00459-medium-flatten.ts" target="_blank">459・Flatten</a>
+~~<a href="./answers/00459-medium-flatten.ts" target="_blank">459・Flatten</a>~~
 
 <a href="./answers/00462-extreme-currying-2.ts" target="_blank">462・Currying 2</a>
 
@@ -137,11 +137,11 @@ Click in the item to see my answer to the challenge.
 
 <a href="./answers/00517-extreme-multiply.ts" target="_blank">517・Multiply</a>
 
-<a href="./answers/00527-medium-append-to-object.ts" target="_blank">527・Append to object</a>
+~~<a href="./answers/00527-medium-append-to-object.ts" target="_blank">527・Append to object</a>~~
 
-<a href="./answers/00529-medium-absolute.ts" target="_blank">529・Absolute</a>
+~~<a href="./answers/00529-medium-absolute.ts" target="_blank">529・Absolute</a>~~
 
-<a href="./answers/00531-medium-string-to-union.ts" target="_blank">531・String to Union</a>
+~~<a href="./answers/00531-medium-string-to-union.ts" target="_blank">531・String to Union</a>~~
 
 ~~<a href="./answers/00533-easy-concat.ts" target="_blank">533・Concat</a>~~
 

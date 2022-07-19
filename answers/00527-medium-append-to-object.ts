@@ -47,5 +47,10 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type AppendToObject<T, U, V> = any
-
+type AppendToObject<T extends {[index: string]: any}, U extends string, V extends any> = (T & {
+  [Index in U]: V
+}) extends infer O 
+  ? {
+    [Index in keyof O]: O[Index]
+  }
+  : never;

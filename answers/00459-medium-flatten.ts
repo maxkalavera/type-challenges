@@ -12,5 +12,8 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type Flatten = any
-
+type Flatten<T extends any[]> = T extends [infer First, ...infer Others]
+  ? First extends any[]
+    ? [...Flatten<First>, ...Flatten<Others>]
+    : [First, ...Flatten<Others>]
+  : [];

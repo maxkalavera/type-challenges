@@ -17,5 +17,7 @@ type cases = [
 * Answer
 ******************************************************************************/
 
-type Absolute<T extends number | string | bigint> = any
-
+type Absolute<T extends number | string | bigint> = 
+  `${T}` extends `-${infer U}` 
+    ? U 
+    : `${T}`;
